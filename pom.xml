@@ -6,13 +6,19 @@
     <artifactId>parent</artifactId>
     <version>1.2</version>
   </parent>
-  
+
   <groupId>org.exoplatform.sample.release</groupId>
   <artifactId>release-with-staging</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>1</version>
   <packaging>jar</packaging>
 
   <name>release-with-staging</name>
+
+  <scm>
+    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/1</connection>
+    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/1</developerConnection>
+    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/tags/1</url>
+  </scm>
 
   <dependencies>
     <dependency>
