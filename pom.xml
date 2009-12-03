@@ -9,7 +9,7 @@
 
   <groupId>org.exoplatform.sample.release</groupId>
   <artifactId>release-with-staging</artifactId>
-  <version>5-SNAPSHOT</version>
+  <version>5</version>
   <packaging>jar</packaging>
 
   <name>Release with staging sample</name>
@@ -24,9 +24,9 @@
   </licenses>
 
   <scm>
-    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</connection>
-    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
-    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
+    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/5</connection>
+    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/5</developerConnection>
+    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/tags/5</url>
   </scm>
 
   <dependencies>
