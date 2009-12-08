@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ear</artifactId>
   <packaging>ear</packaging>
-  <name>ear assembly</name>
+  <name>ear</name>
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>release-with-staging</artifactId>

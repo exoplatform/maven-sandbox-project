@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>primary-source</artifactId>
   <packaging>jar</packaging>
-  <name>core project classes</name>
+  <name>primary-source</name>
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>release-with-staging</artifactId>

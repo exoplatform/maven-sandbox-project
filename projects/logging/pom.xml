@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>logging</artifactId>
   <packaging>jar</packaging>
-  <name>logging</name>
+  <name>projects :: logging</name>
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>release-with-staging</artifactId>

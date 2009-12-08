@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>ejbs</artifactId>
   <packaging>ejb</packaging>
-  <name>enterprise java beans</name>
+  <name>ejbs</name>
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>release-with-staging</artifactId>
