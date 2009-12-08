@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.exoplatform.sample.release</groupId>
   <artifactId>release-with-staging</artifactId>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
   <name>Release with staging sample</name>
   <version>7-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
@@ -24,6 +24,39 @@
     <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
     <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
   </scm>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>logging</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>primary-source</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>servlet</artifactId>
+        <version>${project.version}</version>
+        <type>war</type>
+      </dependency>
+      <dependency>
+        <groupId>${project.groupId}</groupId>
+        <artifactId>ejbs</artifactId>
+        <version>${project.version}</version>
+        <type>ejb</type>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+  <modules>
+    <module>projects</module>
+    <module>primary-source</module>
+    <module>servlets</module>
+    <module>ejbs</module>
+    <module>ear</module>
+  </modules>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

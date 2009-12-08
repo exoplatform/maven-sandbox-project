@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>projects</artifactId>
+  <packaging>pom</packaging>
+  <name>sub projects</name>
+  <parent>
+    <groupId>org.exoplatform.sample.release</groupId>
+    <artifactId>release-with-staging</artifactId>
+    <version>7-SNAPSHOT</version>
+  </parent>
+  <modules>
+    <module>logging</module>
+  </modules>
+</project>

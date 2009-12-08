@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <artifactId>primary-source</artifactId>
+  <packaging>jar</packaging>
+  <name>core project classes</name>
+  <parent>
+    <groupId>org.exoplatform.sample.release</groupId>
+    <artifactId>release-with-staging</artifactId>
+    <version>7-SNAPSHOT</version>
+  </parent>
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>logging</artifactId>
+    </dependency>
+  </dependencies>
+</project>
