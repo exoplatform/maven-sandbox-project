@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.exoplatform</groupId>
     <artifactId>exo.parent</artifactId>
-    <version>4</version>
+    <version>6</version>
   </parent>
   <groupId>org.exoplatform.sample.release</groupId>
   <artifactId>release-with-staging</artifactId>
@@ -65,8 +65,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <properties>
-    <!-- To fix PAR-69 -->
-    <preparationGoals>clean install</preparationGoals>
-  </properties>
 </project>
