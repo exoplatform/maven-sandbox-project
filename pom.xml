@@ -65,4 +65,8 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+    <!-- To fix PAR-69 -->
+    <preparationGoals>clean install</preparationGoals>
+  </properties>
 </project>
