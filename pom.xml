@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.exoplatform</groupId>
@@ -10,7 +10,7 @@
   <artifactId>release-with-staging</artifactId>
   <packaging>pom</packaging>
   <name>Release with staging sample</name>
-  <version>7-SNAPSHOT</version>
+  <version>7</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
   <licenses>
@@ -20,9 +20,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</connection>
-    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
-    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
+    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/7</connection>
+    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/7</developerConnection>
+    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/tags/7</url>
   </scm>
   <dependencyManagement>
     <dependencies>
