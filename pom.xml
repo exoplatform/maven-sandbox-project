@@ -1,34 +1,29 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-
   <parent>
     <groupId>org.exoplatform</groupId>
     <artifactId>parent</artifactId>
     <version>1.2</version>
   </parent>
-
   <groupId>org.exoplatform.sample.release</groupId>
   <artifactId>release-with-staging</artifactId>
-  <version>7-SNAPSHOT</version>
   <packaging>jar</packaging>
-
   <name>Release with staging sample</name>
+  <version>7-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
-
   <licenses>
     <license>
       <name>agpl</name>
       <url>http://www.gnu.org/licenses/agpl-3.0.txt</url>
     </license>
   </licenses>
-
   <scm>
     <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</connection>
     <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
     <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
   </scm>
-
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
