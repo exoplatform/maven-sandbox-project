@@ -4,13 +4,13 @@
   <parent>
     <groupId>org.exoplatform</groupId>
     <artifactId>exo.parent</artifactId>
-    <version>7</version>
+    <version>6</version>
   </parent>
   <groupId>org.exoplatform.sample.release</groupId>
   <artifactId>release-with-staging</artifactId>
   <packaging>pom</packaging>
   <name>Release with staging sample</name>
-  <version>11-SNAPSHOT</version>
+  <version>11</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
   <licenses>
@@ -20,9 +20,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</connection>
-    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
-    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
+    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/11</connection>
+    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/11</developerConnection>
+    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/tags/11</url>
   </scm>
   <dependencyManagement>
     <dependencies>
