@@ -7,6 +7,6 @@
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>release-with-staging</artifactId>
-    <version>14-SNAPSHOT</version>
+    <version>14</version>
   </parent>
 </project>
