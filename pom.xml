@@ -10,7 +10,7 @@
   <artifactId>release-with-staging</artifactId>
   <packaging>pom</packaging>
   <name>Release with staging sample</name>
-  <version>16-SNAPSHOT</version>
+  <version>15-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
   <licenses>
