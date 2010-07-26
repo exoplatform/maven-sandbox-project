@@ -10,7 +10,7 @@
   <artifactId>release-with-staging</artifactId>
   <packaging>pom</packaging>
   <name>Release with staging sample</name>
-  <version>15-SNAPSHOT</version>
+  <version>15</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
   <licenses>
@@ -20,9 +20,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</connection>
-    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
-    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
+    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/15</connection>
+    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/tags/15</developerConnection>
+    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/tags/15</url>
   </scm>
   <dependencyManagement>
     <dependencies>
@@ -66,7 +66,6 @@
     </dependency>
   </dependencies>
   <properties>
-    <mavenExecutorId>forked-path</mavenExecutorId>
     <arguments>-Prelease,sign-artifacts</arguments>
   </properties>
   <profiles>
