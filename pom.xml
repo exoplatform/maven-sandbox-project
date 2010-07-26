@@ -77,7 +77,8 @@
     </pluginManagement>
   </build>
   <properties>
-    <arguments>-Prelease,sign-artifacts -Dgpg.passphrase=${gpg.passphrase}</arguments>
+    <mavenExecutorId>forked-path</mavenExecutorId>
+    <arguments>-Prelease,sign-artifacts</arguments>
   </properties>
   <profiles>
     <profile>
