@@ -65,17 +65,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-gpg-plugin</artifactId>
-          <version>1.1</version>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
   <properties>
     <mavenExecutorId>forked-path</mavenExecutorId>
     <arguments>-Prelease,sign-artifacts</arguments>
@@ -89,6 +78,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-gpg-plugin</artifactId>
+            <version>1.1</version>
             <executions>
               <execution>
                 <goals>
