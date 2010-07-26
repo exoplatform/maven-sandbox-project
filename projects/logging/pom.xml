@@ -6,7 +6,7 @@
   <name>projects :: logging</name>
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
-    <artifactId>release-with-staging</artifactId>
+    <artifactId>projects</artifactId>
     <version>15-SNAPSHOT</version>
   </parent>
 </project>

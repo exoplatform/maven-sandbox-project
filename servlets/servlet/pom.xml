@@ -6,7 +6,7 @@
   <name>servlets :: servlet</name>
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
-    <artifactId>release-with-staging</artifactId>
+    <artifactId>servlets</artifactId>
     <version>15-SNAPSHOT</version>
   </parent>
   <dependencies>
