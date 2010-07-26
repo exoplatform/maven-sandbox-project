@@ -77,7 +77,7 @@
     </pluginManagement>
   </build>
   <properties>
-    <arguments>-Prelease,sign-artifacts</arguments>
+    <arguments>-Prelease,sign-artifacts -Dgpg.passphrase=${gpg.passphrase}</arguments>
   </properties>
   <profiles>
     <profile>
