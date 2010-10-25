@@ -27,6 +27,7 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
+        <?test that a processing instruction is respected by maven release plugin?>
         <groupId>${project.groupId}</groupId>
         <artifactId>logging</artifactId>
         <version>${project.version}</version>
