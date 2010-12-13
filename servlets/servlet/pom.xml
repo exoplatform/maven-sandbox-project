@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>servlets</artifactId>
-    <version>16</version>
+    <version>17-SNAPSHOT</version>
   </parent>
   <dependencies>
     <dependency>
