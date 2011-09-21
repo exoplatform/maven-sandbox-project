@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.exoplatform.sample.release</groupId>
     <artifactId>release-with-staging</artifactId>
-    <version>21-SNAPSHOT</version>
+    <version>21</version>
   </parent>
   <modules>
     <module>logging</module>
