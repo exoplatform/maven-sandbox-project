@@ -6,11 +6,11 @@
     <artifactId>exo.parent</artifactId>
     <version>8</version>
   </parent>
-  <groupId>org.exoplatform.sample.release</groupId>
-  <artifactId>release-with-staging</artifactId>
+  <groupId>org.exoplatform.swf.sandbox</groupId>
+  <artifactId>maven-sandbox-project</artifactId>
   <packaging>pom</packaging>
-  <name>Release with staging sample</name>
-  <version>25-SNAPSHOT</version>
+  <name>Maven sandbox project</name>
+  <version>1-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
   <licenses>
@@ -29,34 +29,34 @@
       <dependency>
         <?test that a processing instruction is respected by maven release plugin?>
         <groupId>${project.groupId}</groupId>
-        <artifactId>logging</artifactId>
+        <artifactId>maven-sandbox-project-component-logging</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>primary-source</artifactId>
+        <artifactId>maven-sandbox-project-primary-source</artifactId>
         <version>${project.version}</version>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>servlet</artifactId>
+        <artifactId>maven-sandbox-project-servlet</artifactId>
         <version>${project.version}</version>
         <type>war</type>
       </dependency>
       <dependency>
         <groupId>${project.groupId}</groupId>
-        <artifactId>ejbs</artifactId>
+        <artifactId>maven-sandbox-project-ejbs</artifactId>
         <version>${project.version}</version>
         <type>ejb</type>
       </dependency>
     </dependencies>
   </dependencyManagement>
   <modules>
-    <module>projects</module>
-    <module>primary-source</module>
-    <module>servlets</module>
-    <module>ejbs</module>
-    <module>ear</module>
+    <module>maven-sandbox-project-components</module>
+    <module>maven-sandbox-project-primary-source</module>
+    <module>maven-sandbox-project-servlets</module>
+    <module>maven-sandbox-project-ejbs</module>
+    <module>maven-sandbox-project-ear</module>
   </modules>
   <dependencies>
     <dependency>

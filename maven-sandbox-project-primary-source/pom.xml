@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>servlet</artifactId>
-  <packaging>war</packaging>
-  <name>servlets :: servlet</name>
   <parent>
-    <groupId>org.exoplatform.sample.release</groupId>
-    <artifactId>servlets</artifactId>
-    <version>25-SNAPSHOT</version>
+    <groupId>org.exoplatform.swf.sandbox</groupId>
+    <artifactId>maven-sandbox-project</artifactId>
+    <version>1-SNAPSHOT</version>
   </parent>
+  <artifactId>maven-sandbox-project-primary-source</artifactId>
+  <packaging>jar</packaging>
+  <name>primary-source</name>
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>primary-source</artifactId>
-      <scope>provided</scope>
+      <artifactId>maven-sandbox-project-component-logging</artifactId>
     </dependency>
   </dependencies>
 </project>

@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>ear</artifactId>
+  <parent>
+    <groupId>org.exoplatform.swf.sandbox</groupId>
+    <artifactId>maven-sandbox-project</artifactId>
+    <version>1-SNAPSHOT</version>
+  </parent>
+  <artifactId>maven-sandbox-project-ear</artifactId>
   <packaging>ear</packaging>
   <name>ear</name>
-  <parent>
-    <groupId>org.exoplatform.sample.release</groupId>
-    <artifactId>release-with-staging</artifactId>
-    <version>25-SNAPSHOT</version>
-  </parent>
   <dependencies>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>ejbs</artifactId>
+      <artifactId>maven-sandbox-project-ejbs</artifactId>
       <type>ejb</type>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>servlet</artifactId>
+      <artifactId>maven-sandbox-project-servlet</artifactId>
       <type>war</type>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>primary-source</artifactId>
+      <artifactId>maven-sandbox-project-primary-source</artifactId>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
-      <artifactId>logging</artifactId>
+      <artifactId>maven-sandbox-project-component-logging</artifactId>
     </dependency>
   </dependencies>
 </project>
