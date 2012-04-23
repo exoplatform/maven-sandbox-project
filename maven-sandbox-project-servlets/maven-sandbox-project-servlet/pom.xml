@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.exoplatform.swf.sandbox</groupId>
     <artifactId>maven-sandbox-project-servlets</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
   </parent>
   <artifactId>maven-sandbox-project-servlet</artifactId>
   <packaging>war</packaging>
