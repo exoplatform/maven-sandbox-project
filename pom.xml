@@ -24,6 +24,11 @@
     <developerConnection>scm:git:git@github.com:exoplatform/maven-sandbox-project.git</developerConnection>
     <url>https://fisheye.exoplatform.org/changelog/maven-sandbox-project</url>
   </scm>
+  <properties>
+    <!-- Ensure Git compatibility -->
+    <version.release.plugin>2.2.1</version.release.plugin>
+    <version.buildnumber.plugin>1.0</version.buildnumber.plugin>
+  </properties>
   <dependencyManagement>
     <dependencies>
       <dependency>
