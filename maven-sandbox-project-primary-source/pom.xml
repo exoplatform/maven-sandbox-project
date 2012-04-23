@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.exoplatform.swf.sandbox</groupId>
     <artifactId>maven-sandbox-project</artifactId>
-    <version>2</version>
+    <version>3-SNAPSHOT</version>
   </parent>
   <artifactId>maven-sandbox-project-primary-source</artifactId>
   <packaging>jar</packaging>
