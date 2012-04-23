@@ -20,9 +20,9 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</connection>
-    <developerConnection>scm:svn:http://svn.exoplatform.org/projects/samples/maven/release/trunk</developerConnection>
-    <url>http://fisheye.exoplatform.org/browse/projects/samples/maven/release/trunk</url>
+    <connection>scm:git:git://github.com/exoplatform/maven-sandbox-project.git</connection>
+    <developerConnection>scm:git:git@github.com:exoplatform/maven-sandbox-project.git</developerConnection>
+    <url>https://fisheye.exoplatform.org/changelog/maven-sandbox-project</url>
   </scm>
   <dependencyManagement>
     <dependencies>
