@@ -10,7 +10,7 @@
   <artifactId>maven-sandbox-project</artifactId>
   <packaging>pom</packaging>
   <name>Maven sandbox project</name>
-  <version>1.2</version>
+  <version>1.3-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <url>http://www.exoplatform.org</url>
   <licenses>
