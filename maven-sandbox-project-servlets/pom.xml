@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.exoplatform.swf.sandbox</groupId>
     <artifactId>maven-sandbox-project</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
   </parent>
   <artifactId>maven-sandbox-project-servlets</artifactId>
   <packaging>pom</packaging>
