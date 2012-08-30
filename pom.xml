@@ -68,18 +68,18 @@
   </dependencies>
   <properties>
     <org.exoplatform.kernel.version>2.2.14-GA-SNAPSHOT</org.exoplatform.kernel.version>
-    <org.exoplatform.core.version>2.3.14-GA</org.exoplatform.core.version>
-    <org.exoplatform.ws.version>2.1.14-GA</org.exoplatform.ws.version>
-    <org.exoplatform.jcr.version>1.12.14-GA</org.exoplatform.jcr.version>
-    <org.exoplatform.jcr-services.version>1.12.14-GA</org.exoplatform.jcr-services.version>
-    <org.exoplatform.portal.version>3.1.15-PLF</org.exoplatform.portal.version>
-    <org.exoplatform.cs.version>2.1.11</org.exoplatform.cs.version>
-    <org.exoplatform.ks.version>2.1.11</org.exoplatform.ks.version>
-    <org.exoplatform.ecms.version>2.1.11</org.exoplatform.ecms.version>
-    <org.exoplatform.social.version>1.1.11</org.exoplatform.social.version>
-    <org.exoplatform.commons.version>1.0.11</org.exoplatform.commons.version>
-    <org.exoplatform.gwtframework.version>1.0.9</org.exoplatform.gwtframework.version>
-    <org.exoplatform.ide.version>1.0.10</org.exoplatform.ide.version>
+    <org.exoplatform.core.version>2.3.15-GA-SNAPSHOT</org.exoplatform.core.version>
+    <org.exoplatform.ws.version>2.1.15-GA-SNAPSHOT</org.exoplatform.ws.version>
+    <org.exoplatform.jcr.version>1.12.15-GA-SNAPSHOT</org.exoplatform.jcr.version>
+    <org.exoplatform.jcr-services.version>1.12.15-GA-SNAPSHOT</org.exoplatform.jcr-services.version>
+    <org.exoplatform.portal.version>3.1.16-PLF-SNAPSHOT</org.exoplatform.portal.version>
+    <org.exoplatform.cs.version>2.1.12-SNAPSHOT</org.exoplatform.cs.version>
+    <org.exoplatform.ks.version>2.1.12-SNAPSHOT</org.exoplatform.ks.version>
+    <org.exoplatform.ecms.version>2.1.12-SNAPSHOT</org.exoplatform.ecms.version>
+    <org.exoplatform.social.version>1.1.12-SNAPSHOT</org.exoplatform.social.version>
+    <org.exoplatform.commons.version>1.0.12-SNAPSHOT</org.exoplatform.commons.version>
+    <org.exoplatform.gwtframework.version>1.0.10-SNAPSHOT</org.exoplatform.gwtframework.version>
+    <org.exoplatform.ide.version>1.0.11-SNAPSHOT</org.exoplatform.ide.version>
     <arguments>-Prelease</arguments>
     <!-- Ensure Git compatibility -->
     <version.release.plugin>2.2.1</version.release.plugin>
