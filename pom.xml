@@ -81,6 +81,8 @@
     <org.exoplatform.gwtframework.version>1.0.10-SNAPSHOT</org.exoplatform.gwtframework.version>
     <org.exoplatform.ide.version>1.0.11-SNAPSHOT</org.exoplatform.ide.version>
     <arguments>-Prelease</arguments>
+    <!-- Maven Site Settings -->
+    <site.name>maven-sandbox-project-master</site.name>
   </properties>
   <profiles>
     <profile>
