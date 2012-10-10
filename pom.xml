@@ -12,7 +12,6 @@
   <name>Maven sandbox project</name>
   <version>1.6-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
-  <url>http://www.exoplatform.org</url>
   <licenses>
     <license>
       <name>agpl</name>
