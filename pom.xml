@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.exoplatform</groupId>
     <artifactId>maven-parent-pom</artifactId>
-    <version>9-alpha-1</version>
+    <version>9-alpha-2</version>
   </parent>
   <groupId>org.exoplatform.swf.sandbox</groupId>
   <artifactId>maven-sandbox-project</artifactId>
@@ -12,11 +12,13 @@
   <name>Maven sandbox project</name>
   <version>1.6-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
+  <scm>
+    <connection>scm:git:git://github.com/exoplatform/maven-sandbox-project.git</connection>
+    <developerConnection>scm:git:git@github.com:exoplatform/maven-sandbox-project.git</developerConnection>
+    <url>https://fisheye.exoplatform.org/browse/maven-sandbox-project</url>
+    <tag>HEAD</tag>
+  </scm>
   <properties>
-    <!-- **************************************** -->
-    <!-- GitHub Settings                             -->
-    <!-- **************************************** -->
-    <github.repository>maven-sandbox-project</github.repository>
     <!-- **************************************** -->
     <!-- Jira Settings                            -->
     <!-- **************************************** -->
@@ -72,25 +74,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <profiles>
-    <profile>
-      <id>sign-artifacts</id>
-      <build>
-        <plugins>
-          <!-- We want to sign the artifact, the POM, and all attached artifacts -->
-          <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-gpg-plugin</artifactId>
-            <executions>
-              <execution>
-                <goals>
-                  <goal>sign</goal>
-                </goals>
-              </execution>
-            </executions>
-          </plugin>
-        </plugins>
-      </build>
-    </profile>
-  </profiles>
 </project>
