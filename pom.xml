@@ -2,21 +2,28 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.exoplatform</groupId>
     <artifactId>maven-parent-pom</artifactId>
+    <groupId>org.exoplatform</groupId>
     <version>13</version>
   </parent>
   <groupId>org.exoplatform.swf.sandbox</groupId>
   <artifactId>maven-sandbox-project</artifactId>
+  <version>2.6-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Maven sandbox project</name>
-  <version>2.6-SNAPSHOT</version>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
+  <modules>
+    <module>maven-sandbox-project-components</module>
+    <module>maven-sandbox-project-primary-source</module>
+    <module>maven-sandbox-project-servlets</module>
+    <module>maven-sandbox-project-ejbs</module>
+    <module>maven-sandbox-project-ear</module>
+  </modules>
   <scm>
     <connection>scm:git:git://github.com/exoplatform/maven-sandbox-project.git</connection>
     <developerConnection>scm:git:git@github.com:exoplatform/maven-sandbox-project.git</developerConnection>
-    <url>https://fisheye.exoplatform.org/browse/maven-sandbox-project</url>
     <tag>HEAD</tag>
+    <url>https://fisheye.exoplatform.org/browse/maven-sandbox-project</url>
   </scm>
   <properties>
     <!-- **************************************** -->
@@ -27,6 +34,16 @@
     <!-- Jenkins Settings                         -->
     <!-- **************************************** -->
     <jenkins.job.name>maven-sandbox-project-master-ci</jenkins.job.name>
+    <org.gatein.portal.version>4.3.x-PLF-SNAPSHOT</org.gatein.portal.version>
+    <!-- Platform Project Dependencies -->
+    <org.exoplatform.commons.version>4.3.x-SNAPSHOT</org.exoplatform.commons.version>
+    <org.exoplatform.ecms.version>4.3.x-SNAPSHOT</org.exoplatform.ecms.version>
+    <org.exoplatform.social.version>4.3.x-SNAPSHOT</org.exoplatform.social.version>
+    <org.exoplatform.forum.version>4.3.x-SNAPSHOT</org.exoplatform.forum.version>
+    <org.exoplatform.wiki.version>4.3.x-SNAPSHOT</org.exoplatform.wiki.version>
+    <org.exoplatform.calendar.version>4.3.x-SNAPSHOT</org.exoplatform.calendar.version>
+    <org.exoplatform.integ.version>4.3.x-SNAPSHOT</org.exoplatform.integ.version>
+    <org.exoplatform.platform-ui.version>4.3.x-SNAPSHOT</org.exoplatform.platform-ui.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -54,19 +71,12 @@
         <type>ejb</type>
       </dependency>
       <dependency>
-         <groupId>junit</groupId>
-         <artifactId>junit</artifactId>
-         <version>4.10</version>
-       </dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.10</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
-  <modules>
-    <module>maven-sandbox-project-components</module>
-    <module>maven-sandbox-project-primary-source</module>
-    <module>maven-sandbox-project-servlets</module>
-    <module>maven-sandbox-project-ejbs</module>
-    <module>maven-sandbox-project-ear</module>
-  </modules>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
