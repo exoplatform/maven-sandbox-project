@@ -10,7 +10,7 @@
   <artifactId>maven-sandbox-project</artifactId>
   <version>2.7.x-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Maven sandbox project</name>
+  <name>Maven Sandbox project</name>
   <description>Sample to release a project with Maven, Nexus and a staging repository.</description>
   <modules>
     <module>maven-sandbox-project-components</module>
