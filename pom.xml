@@ -11,7 +11,7 @@
   <version>2.6-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Maven sandbox project - test PR build</name>
-  <description>Sample to release a project with Maven, Nexus and a staging repository</description>
+  <description>Sample to release a project with Maven, Nexus and a staging repository - double commit</description>
   <modules>
     <module>maven-sandbox-project-components</module>
     <module>maven-sandbox-project-primary-source</module>
