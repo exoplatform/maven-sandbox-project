@@ -10,7 +10,7 @@
   <artifactId>maven-sandbox-project</artifactId>
   <version>2.7.x-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>Maven SandBox project</name>
+  <name>Maven SandBox Project</name>
   <description>Sample project to build PR on CI, Release a project with Maven, Nexus and a staging repository.</description>
   <modules>
     <module>maven-sandbox-project-components</module>
