@@ -11,7 +11,7 @@
   <version>2.7.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Maven SandBox Project</name>
-  <description>Sample project to build PR on CI, Release a project with Maven, Nexus and a staging repository.</description>
+  <description>Sample project to build PR on CI, release a project with Maven, Nexus and a staging repository.</description>
   <modules>
     <module>maven-sandbox-project-components</module>
     <module>maven-sandbox-project-primary-source</module>
