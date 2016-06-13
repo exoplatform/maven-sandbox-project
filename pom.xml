@@ -27,6 +27,8 @@
     <!-- Jenkins Settings                         -->
     <!-- **************************************** -->
     <jenkins.job.name>maven-sandbox-project-master-ci</jenkins.job.name>
+    <org.exoplatform.commons.version>4.3.x-SNAPSHOT</org.exoplatform.commons.version>
+    <org.exoplatform.ecms.version>4.3.x-SNAPSHOT</org.exoplatform.ecms.version>
   </properties>
   <dependencyManagement>
     <dependencies>
