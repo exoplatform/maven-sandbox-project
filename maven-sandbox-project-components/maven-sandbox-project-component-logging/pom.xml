@@ -9,4 +9,11 @@
   <artifactId>maven-sandbox-project-component-logging</artifactId>
   <packaging>jar</packaging>
   <name>projects :: logging</name>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>
