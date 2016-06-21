@@ -4,7 +4,7 @@
   <parent>
     <artifactId>maven-parent-pom</artifactId>
     <groupId>org.exoplatform</groupId>
-    <version>13</version>
+    <version>16-M01</version>
   </parent>
   <groupId>org.exoplatform.swf.sandbox</groupId>
   <artifactId>maven-sandbox-project</artifactId>
@@ -33,7 +33,7 @@
     <!-- **************************************** -->
     <!-- Jenkins Settings                         -->
     <!-- **************************************** -->
-    <jenkins.job.name>maven-sandbox-project-master-ci</jenkins.job.name>
+    <jenkins.job.name>maven-sandbox-project-ci</jenkins.job.name>
     <org.gatein.portal.version>4.4.x-PLF-SNAPSHOT</org.gatein.portal.version>
     <!-- Platform Project Dependencies -->
     <org.exoplatform.commons.version>4.4.x-SNAPSHOT</org.exoplatform.commons.version>
