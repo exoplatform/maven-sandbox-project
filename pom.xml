@@ -33,6 +33,9 @@
     <!-- **************************************** -->
     <!-- Jenkins Settings                         -->
     <!-- **************************************** -->
+    <exo.releases.repo.url>https://repository-new.exoplatform.org/service/local/staging/deploy/maven2/</exo.releases.repo.url>
+    <exo.snapshots.repo.url>https://repository-new.exoplatform.org/content/repositories/exo-snapshots</exo.snapshots.repo.url>
+    <exo.public.repo.url>http://repository-new.exoplatform.org/public/</exo.public.repo.url>
     <jenkins.job.name>maven-sandbox-project-ci</jenkins.job.name>
     <org.gatein.portal.version>4.4.x-PLF-SNAPSHOT</org.gatein.portal.version>
     <!-- Platform Project Dependencies -->
