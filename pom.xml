@@ -23,7 +23,7 @@
     <connection>scm:git:git://github.com/exoplatform/maven-sandbox-project.git</connection>
     <developerConnection>scm:git:git@github.com:exoplatform/maven-sandbox-project.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://fisheye.exoplatform.org/browse/maven-sandbox-project</url>
+    <url>https://github.com/exoplatform/maven-sandbox-project</url>
   </scm>
   <properties>
     <!-- **************************************** -->
