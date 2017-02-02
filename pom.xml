@@ -8,7 +8,7 @@
   </parent>
   <groupId>org.exoplatform.swf.sandbox</groupId>
   <artifactId>maven-sandbox-project</artifactId>
-  <version>3.0.x-SNAPSHOT</version>
+  <version>3.0.1</version>
   
   <packaging>pom</packaging>
   <name>Maven sandbox project</name>
@@ -23,7 +23,7 @@
   <scm>
     <connection>scm:git:git://github.com/exoplatform/maven-sandbox-project.git</connection>
     <developerConnection>scm:git:git@github.com:exoplatform/maven-sandbox-project.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>3.0.1</tag>
     <url>https://github.com/exoplatform/maven-sandbox-project</url>
   </scm>
   <properties>
