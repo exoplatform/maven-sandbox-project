@@ -12,7 +12,7 @@ public class HelloWorldTest {
     HelloWorld hl = new HelloWorld();
 
     assertNotNull(hl.getMessage());
-    assertEquals("Hello Developer", hl.getMessage());
+    assertEquals("Hello Developer !", hl.getMessage());
 
   }
 
